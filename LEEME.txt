@@ -1,0 +1,44 @@
+CAMIONES DE MERCANCÍAS EN 3D
+============================
+
+CÓMO ABRIRLA
+1. Descomprime el archivo .zip (clic derecho > «Extraer todo»).
+2. Entra en la carpeta «camiones-3d» y abre «index.html» con doble clic.
+3. Se abre en el navegador (Chrome, Edge o Firefox actualizados).
+   No necesita internet ni instalar nada.
+
+Para compartirla con los alumnos, pásales el .zip completo: la web solo
+funciona si se mantienen juntas las carpetas «css» y «js».
+
+CÓMO SE USA
+- Arrastrar con el ratón: girar la vista.
+- Rueda del ratón o pellizco: zoom.
+- Botón derecho (o Mayúsculas + arrastrar): desplazar.
+- Botones 3D / Lateral / Planta / Trasera: vistas rápidas.
+- Botón de las cuatro esquinas: pantalla completa (para el proyector).
+  Para salir, vuelve a pulsarlo o pulsa Esc.
+- La cuadrícula del suelo es de 1 m.
+
+PESTAÑAS
+1. Tipos de camión: rígido, articulado de 5 ejes, tren de carretera y
+   portavehículos a escala, con cotas y ficha. Botón «Comparar».
+2. Carga de palés: animación de carga del articulado con palé europeo (33),
+   americano (26) y americano girado (22), y el espacio que sobra.
+3. Peso: con el peso de cada palé y la tara, se ve si el camión se llena
+   por peso o por volumen (límite 44 t).
+4. Remonte: palés a doble altura (66 / 52) en semirremolque estándar
+   y «mega».
+
+FUENTES
+- Límites legales: Anexo IX del Reglamento General de Vehículos
+  (RD 2822/1998), en la redacción de la Orden PJC/780/2025 (BOE).
+- Medidas de palé: UNE-EN 13698-1 y UNE-EN 13698-2.
+- Datos de mercado (orientativos, no legales): interior del semirremolque
+  13,60 × 2,48 m; altura interior 2,70 m (estándar) y 3,00 m («mega»);
+  tara del conjunto 14-16 t.
+
+CONTENIDO DE LA CARPETA
+index.html        Página principal
+css/estilos.css   Diseño
+js/motor3d.js     Motor 3D propio (sin librerías externas)
+js/app.js         Datos, vehículos y simulaciones
