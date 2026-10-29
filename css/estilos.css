@@ -29,8 +29,6 @@ body { background: var(--fondo); display: flex; flex-direction: column; min-heig
   padding: 10px 18px; background: var(--superficie); border-bottom: 1px solid var(--borde);
   flex-wrap: wrap;
 }
-.marca { display: flex; align-items: center; gap: 12px; }
-.marca .logo { width: 46px; height: 46px; flex: none; display: block; }
 .marca h1 { margin: 0; font-size: 1.15rem; letter-spacing: -.01em; }
 .marca p { margin: 2px 0 0; font-size: .8rem; color: var(--texto-suave); }
 .pestanas { display: flex; gap: 6px; flex-wrap: wrap; }
